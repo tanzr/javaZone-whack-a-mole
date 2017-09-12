@@ -1,8 +1,9 @@
-tatic const uint8_t buttonPins[] = {32, 33};
+static const uint8_t buttonPins[] = {32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, A0, A1, A2, A3, A4, A5};
+//static const uint8_t buttonPins[] = {32, 33};
 
-uint8_t sizeOfArray = 2;
+uint8_t sizeOfArray = 28;
 // Addresses for the LEDs. We have 30 LEDs (one in each button).
-uint8_t ledPins[2];
+uint8_t ledPins[28];
 
 uint8_t score = 0;
 uint8_t previousValue = -1;
